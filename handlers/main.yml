@@ -1,0 +1,11 @@
+---
+# handlers file for rhel_dnsmasq
+- name: restart dnsmasq
+  service:
+    name: dnsmasq
+    state: restarted
+
+- name: restart firewalld
+  service:
+    name: dnsmasq
+    state: restarted
